@@ -5,7 +5,7 @@ with open("README.md", "r") as stream:
 
 setup(
     name = "onehundredone_online.py",
-    version = "2.0.0",
+    version = "2.1.0",
     url = "https://github.com/Zakovskiy/onehundredone_online.py",
     download_url = "https://github.com/Zakovskiy/onehundredone_online.py/tarball/master",
     license = "MIT",
