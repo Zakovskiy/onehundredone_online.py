@@ -11,7 +11,7 @@
 
 # Install
 ```
-git clone onehundredone_online.py
+git clone https://github.com/Zakovskiy/onehundredone_online.py
 ```
 
 # Import and Auth
