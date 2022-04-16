@@ -6,8 +6,8 @@ class Game:
     def __init__(self, client):
         self.client = client
 
-    def create(self, bet, password: str = "", players: int = 6,
-        deck: int = 24, fast: bool = False, hand: bool = True) -> objects.Game:
+    def create(self, bet: int, password: str = "", players: int = 6,
+        deck: int = 36, fast: bool = True, hand: int = 4) -> objects.Game:
         self.client.send_server(
             {
                 "command": "create",
